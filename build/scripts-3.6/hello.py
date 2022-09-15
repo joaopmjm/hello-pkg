@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
+#!python
 import gettext
 from time import strptime
 from datetime import datetime
-from dev_aberto import hello
-gettext.install('hello', localedir='locale') 
+from dev_aberto.dev_aberto import hello
+gettext.install('cli', localedir='locale') 
 from babel.dates import format_datetime
 
 if __name__ == '__main__':
